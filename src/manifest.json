@@ -1,0 +1,29 @@
+{
+    "name": "Middle Click Scroll",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "description": "Scrolls the page when middle clicking",
+    "icons": {
+
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["images/*"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "injected/index.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "middle-click-scroll",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "NODE_ENV=development node esbuild.mjs",
+        "build": "NODE_ENV=production node esbuild.mjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@chialab/esbuild-plugin-html": "^0.17.3",
+        "@types/chrome": "^0.0.253",
+        "@types/node": "^20.10.2",
+        "chokidar": "^3.5.3",
+        "esbuild": "^0.19.8"
+    }
+}
