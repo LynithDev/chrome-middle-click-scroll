@@ -16,6 +16,9 @@
             "matches": ["<all_urls>"]
         }
     ],
+    "permissions": [
+        "storage"
+    ],
     "content_scripts": [
         {
             "js": [

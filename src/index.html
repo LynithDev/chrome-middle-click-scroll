@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./index.ts" type="module" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>test</h1>
+    <main>
+        <h1>Middle Click Scroll</h1>
+        <div class="divider"></div>
+
+        <div class="options">
+            <div class="option">
+                <label for="scroll_speed">
+                    <h3>Scroll Speed <span>i</span></h3>
+                    <p>Change the scroll speed multiplier.</p>
+                </label>
+                <input type="range" name="scroll_speed" id="scroll_speed" min="1" max="50" step="1">
+            </div>
+
+            <div class="option">
+                <label for="custom_cursor">
+                    <h3>Custom Cursor <span>i</span></h3>
+                    <p>Change the cursor based on the direction.</p>
+                </label>
+                <input type="checkbox" name="custom_cursor" id="custom_cursor">
+            </div>
+        </div>
+    </main>
 </body>
 </html>

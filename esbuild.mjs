@@ -34,7 +34,7 @@ const ctx = await esbuild.context({
 if (DEV) {
     console.log("\u001b[44m\u001b[1;30m WATCHING MODE \u001b[0m\n")
     
-    const watcher = chokidar.watch("src/**/*.{ts,tsx,js,jsx,html}", {
+    const watcher = chokidar.watch("src/**/*.{ts,tsx,js,jsx,html,css}", {
         persistent: true,
     });
 
